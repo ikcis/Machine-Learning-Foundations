@@ -4,3 +4,5 @@
 
 视频链接：[林軒田\(Hsuan-Tien Lin\) - \[機器學習基石\]](https://www.bilibili.com/video/av1624332)
 
+笔记&作业：[GitBook](https://ikcis.gitbook.io/machine-learning-foundations)
+
