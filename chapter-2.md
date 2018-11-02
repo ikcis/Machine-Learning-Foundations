@@ -4,7 +4,7 @@ description: Learning to Answer Yes/No
 
 # Chapter 2
 
-**Perceptron Learning Algorithm**
+**1、Perceptron Learning Algorithm**
 
 ![](.gitbook/assets/screen-shot-2018-11-02-at-13.12.14.png)
 
@@ -14,9 +14,9 @@ $$w$$ 为分割线的法向量，指向 $$y=1$$ 的方向。
 
 经过若干次的修正， $$w_{t}$$ 与理想中的 $$w_{f}$$ 越来越接近，夹角越来越小。
 
-**PLA可行性的证明**
+**2、PLA可行性的证明**
 
-1、$$w_{t}$$随着迭代次数 $$t$$ 的增加而逐渐向 $$w_{f}$$ 靠拢
+（1）$$w_{t}$$随着迭代次数 $$t$$ 的增加而逐渐向 $$w_{f}$$ 靠拢
 
 ![](.gitbook/assets/screen-shot-2018-11-02-at-16.27.54.png)
 
@@ -26,7 +26,7 @@ $$min$$ 项可理解为距离 $$w_{f}$$ 最近的 $$x$$ 。
 
 后续推导需要用到的公式： $$w_{f}^{T}w_{t+1}\geq w_{f}^{T}w_{t}+\underset{n}{min}$$ $$y_{n}w_{f}^{T}x_{n}$$ $$(1)$$
 
-2、 $$w_{t}$$ 的靠拢是逐渐的、有限度的
+（2） $$w_{t}$$ 的靠拢是逐渐的、有限度的
 
 ![](.gitbook/assets/screen-shot-2018-11-02-at-16.44.59.png)
 
@@ -34,13 +34,13 @@ $$min$$ 项可理解为距离 $$w_{f}$$ 最近的 $$x$$ 。
 
 后续推导需要用到的公式： ![](.gitbook/assets/screen-shot-2018-11-02-at-16.47.31.png)
 
-3、证明迭代次数T有限，如果 $$w_{0}=0$$ ，那么经过T次修正后，有![](.gitbook/assets/screen-shot-2018-11-02-at-13.49.42.png)
+（3）证明迭代次数T有限，如果 $$w_{0}=0$$ ，那么经过T次修正后，有![](.gitbook/assets/screen-shot-2018-11-02-at-13.49.42.png)
 
 证明如下：
 
 ![](.gitbook/assets/screen-shot-2018-11-02-at-14.13.35.png)
 
-**Pocket Algorithm算法**
+**3、Pocket Algorithm算法**
 
 ![](.gitbook/assets/screen-shot-2018-11-02-at-17.14.27.png)
 
