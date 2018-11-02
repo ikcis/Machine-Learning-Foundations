@@ -32,15 +32,21 @@ $$min$$ 项可理解为距离 $$w_{f}$$ 最近的 $$x$$ 。
 
 每次增量不超过 $$max$$ 项，因此二者的长度差别不大。
 
-后续推导需要用到的公式：  ![](.gitbook/assets/screen-shot-2018-11-02-at-16.47.31.png)
+后续推导需要用到的公式： ![](.gitbook/assets/screen-shot-2018-11-02-at-16.47.31.png)
 
 3、证明迭代次数T有限，如果 $$w_{0}=0$$ ，那么经过T次修正后，有![](.gitbook/assets/screen-shot-2018-11-02-at-13.49.42.png)
 
 证明如下：
 
-![](.gitbook/assets/screen-shot-2018-11-02-at-14.13.35.png)**Pocket Algorithm算法**
+![](.gitbook/assets/screen-shot-2018-11-02-at-14.13.35.png)
 
-![](/assets/Screen Shot 2018-11-02 at 17.14.27.png)找到一个最佳的$$w_{g}$$已被证明是一个NP-hard问题，所以只能找到一个比较好的结果。
+**Pocket Algorithm算法**
 
-![](/assets/Screen Shot 2018-11-02 at 17.18.19.png)Pocket比PLA效率要低，因为每次迭代结束之后都要计算出错的数量。
+![](.gitbook/assets/screen-shot-2018-11-02-at-17.14.27.png)
+
+找到一个最佳的$$w_{g}$$已被证明是一个NP-hard问题，所以只能找到一个比较好的结果。
+
+![](.gitbook/assets/screen-shot-2018-11-02-at-17.18.19.png)
+
+Pocket比PLA效率要低，因为每次迭代结束之后都要计算出错的数量。
 
