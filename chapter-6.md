@@ -58,3 +58,21 @@ description: Theory of Generalization
 
 ![](.gitbook/assets/image%20%284%29.png)
 
+**VC Bound**
+
+成长函数的上界是poly\(N\)的，下一步，如果能将mH\(N\)代替M，代入到Hoffding不等式中，就能得到Eout≈Ein​的结论：
+
+![](.gitbook/assets/screen-shot-2018-11-04-at-12.57.56.png)
+
+实际上，经过数学的推导（证明略），式子应该为：
+
+![](.gitbook/assets/screen-shot-2018-11-04-at-12.58.43.png)
+
+最后我们得到了结论，叫做Vapnik-Chervonenkis\(VC\) bound：
+
+![](.gitbook/assets/screen-shot-2018-11-04-at-13.00.44.png)
+
+对于2D perceptrons它的break point是4，那么成长函数mH\(N\)=O\(N3\)。所以，我们可以说2D perceptrons是可以进行机器学习的，只要找到hypothesis能让Ein≈0，就能保证Ein ≈ Eout。
+
+只要break point存在，那么机器学习就是可行的。
+
