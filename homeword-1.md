@@ -1,6 +1,6 @@
 # Homeword 1
 
-Q15
+Q15-17
 
 ![](.gitbook/assets/screen-shot-2018-11-04-at-19.55.06.png)
 
@@ -25,6 +25,7 @@ def perceptron(X, Y, theta, eta=1):
     return theta, t
 
 
+# Q15
 data = np.loadtxt('hw1_15_train.dat.txt')
 row, col = data.shape
 X = np.c_[np.ones((row, 1)), data[:, :-1]]
@@ -33,6 +34,30 @@ theta = np.zeros((col, 1))
 eta = 1
 theta, t = perceptron(X, Y, theta, eta)
 print(t)
+
+# Q16
+cnt = 0
+for i in range(2000):
+    theta = np.zeros((col, 1))
+    eta = 1
+    theta, t = perceptron(X, Y, theta, eta)
+    cnt += t
+print(cnt / 2000)
+
+# Q17
+cnt = 0
+for i in range(2000):
+    theta = np.zeros((col, 1))
+    eta = 0.25
+    theta, t = perceptron(X, Y, theta, eta)
+    cnt += t
+print(cnt / 2000)
+
+"""
+41
+40.5195
+40.7095
+"""
 ```
 
 
