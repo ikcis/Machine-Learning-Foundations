@@ -8,6 +8,14 @@ Q15-17
 import numpy as np
 
 
+def load_data(filename):
+    data = np.loadtxt(filename)
+    row, col = data.shape
+    X = np.c_[np.ones((row, 1)), data[:, :-1]]
+    Y = data[:, -1:]
+    return X, Y
+
+
 def perceptron(X, Y, theta, eta=1):
     t = 0
     while True:
@@ -26,16 +34,14 @@ def perceptron(X, Y, theta, eta=1):
 
 
 # Q15
-data = np.loadtxt('hw1_15_train.dat.txt')
-row, col = data.shape
-X = np.c_[np.ones((row, 1)), data[:, :-1]]
-Y = data[:, -1:]
+X, Y = load_data('hw1_15_train.dat.txt')
+row, col = X.shape
 theta = np.zeros((col, 1))
 eta = 1
 theta, t = perceptron(X, Y, theta, eta)
 print(t)
 
-# Q16
+# 16
 cnt = 0
 for i in range(2000):
     theta = np.zeros((col, 1))
@@ -44,7 +50,7 @@ for i in range(2000):
     cnt += t
 print(cnt / 2000)
 
-# Q17
+# 17
 cnt = 0
 for i in range(2000):
     theta = np.zeros((col, 1))
