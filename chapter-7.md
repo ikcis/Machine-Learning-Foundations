@@ -40,5 +40,17 @@ VC Dimension就是某假设集H能够shatter的最多inputs的个数，即最大
 
 ![](.gitbook/assets/image%20%286%29.png)
 
+可证：dvc=d+1
 
+VC Dimension代表了假设空间的分类能力，即反映了H的自由度，产生dichotomy的数量，也就等于features的个数，但也不是绝对的。
+
+![](.gitbook/assets/5b56967869fe3.png)
+
+ 
+
+![](.gitbook/assets/screen-shot-2018-12-09-at-19.06.27.png)
+
+所以，为了得到最小的Eout，不能一味地增大dvc以减小Ein，因为Ein太小的时候，模型复杂度会增加，造成Eout变大。也就是说，选择合适的dvc​，选择的features个数要合适。
+
+VC Bound是比较宽松的，而如何收紧它却不是那么容易，这也是机器学习的一大难题。但是，令人欣慰的一点是，VC Bound基本上对所有模型的宽松程度是基本一致的，所以，不同模型之间还是可以横向比较。从而，VC Bound宽松对机器学习的可行性还是没有太大影响。
 
