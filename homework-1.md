@@ -1,4 +1,4 @@
-# Homeword 1
+# Homework 1
 
 Q15-17
 
