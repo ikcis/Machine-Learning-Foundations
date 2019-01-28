@@ -46,11 +46,15 @@ description: Linear Regression
 
 总结
 
-![](.gitbook/assets/image%20%285%29.png)
+![](.gitbook/assets/image%20%286%29.png)
+
+![](.gitbook/assets/image%20%2810%29.png)
 
 在Coursera的课程中即为Normal Equation
 
  The "Normal Equation" is a method of finding the optimum theta **without iteration.**
 
  There is **no need** to do feature scaling with the normal equation.
+
+![](.gitbook/assets/image%20%284%29.png)
 
