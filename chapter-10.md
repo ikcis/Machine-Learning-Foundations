@@ -12,11 +12,11 @@ description: Logistic Regression
 
 ![](https://i.loli.net/2018/07/24/5b56f17a4d52b.png)
 
-![](.gitbook/assets/image%20%2816%29.png)
+![](.gitbook/assets/image%20%2818%29.png)
 
-![](.gitbook/assets/image%20%282%29.png)
+![](.gitbook/assets/image%20%283%29.png)
 
-![](.gitbook/assets/image%20%286%29.png)
+![](.gitbook/assets/image%20%287%29.png)
 
 ![](https://i.loli.net/2018/07/24/5b56f30945a5e.png)
 
@@ -42,7 +42,7 @@ description: Logistic Regression
 
 ![](https://i.loli.net/2018/07/24/5b56f36578da9.png)
 
-![](.gitbook/assets/image%20%2813%29.png)
-
 ![](.gitbook/assets/image%20%2815%29.png)
+
+![](.gitbook/assets/image%20%2817%29.png)
 
