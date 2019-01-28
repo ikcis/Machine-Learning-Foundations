@@ -18,7 +18,7 @@ description: The VC Dimension
 
 根据Chapter6的推导，VC Bound可以转换为：
 
-![](.gitbook/assets/image%20%2810%29.png)
+![](.gitbook/assets/image%20%2811%29.png)
 
 这样不等式只与k和N相关，一般情况下样本N足够大，所以我们只考虑k值。有如下结论：
 
@@ -38,7 +38,7 @@ VC Dimension就是某假设集H能够shatter的最多inputs的个数，即最大
 
 用dvc代替k，那么VC bound的问题也就转换为与dvc和N相关了。同时，如果一个假设集H的dvc​确定了，则就能满足机器能够学习的第一个条件Eout≈Ein，与算法、样本数据分布和目标函数都没有关系。
 
-![](.gitbook/assets/image%20%286%29.png)
+![](.gitbook/assets/image%20%287%29.png)
 
 可证：dvc=d+1
 
