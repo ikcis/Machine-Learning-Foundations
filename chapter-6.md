@@ -32,19 +32,19 @@ description: Theory of Generalization
 
 对这11种dichotomy分组，目前分成两组，分别是orange和purple，orange的特点是，x1,x2和x3是一致的，x4不同并成对，例如1和5，2和8等，purple则是单一的，x1,x2,x3都不同，如6,7,9三组。
 
-![](.gitbook/assets/image%20%285%29.png)
+![](.gitbook/assets/image%20%288%29.png)
 
 将Orange去掉x4后去重得到4个不同的vector并成为α，相应的purple为β。那么B\(4,3\)=2α+β，这个是直接转化。紧接着，由定义，B\(4,3\)是不能允许任意三点shatter的，所以由α和β构成的所有三点组合也不能shatter（alpha经过去重），即α+β≤B\(3,3\)。
 
-![](.gitbook/assets/image%20%2812%29.png)
+![](.gitbook/assets/image%20%2818%29.png)
 
 另一方面，由于α中x4是成对存在的，且α是不能被任意三点shatter的，则能推导出α是不能被任意两点shatter的。这是因为，如果α是能被任意两点shatter，而x4又是成对存在的，那么x1、x2、x3、x4组成的α必然能被三个点shatter。这就违背了条件的设定。这个地方的推导非常巧妙，也解释了为什么会这样分组。此处得到的结论是α≤B\(3,2\)。
 
-![](.gitbook/assets/image%20%289%29.png)
+![](.gitbook/assets/image%20%2812%29.png)
 
 由此得出B\(4,3\)与B\(3,x\)的关系为：
 
-![](.gitbook/assets/image%20%287%29.png)
+![](.gitbook/assets/image%20%2810%29.png)
 
 最后，推导出一般公式为：
 
@@ -56,7 +56,7 @@ description: Theory of Generalization
 
 下用数学归纳法证明：
 
-![](.gitbook/assets/image%20%2811%29.png)
+![](.gitbook/assets/image%20%2817%29.png)
 
 **VC Bound**
 

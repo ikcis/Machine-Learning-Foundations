@@ -46,9 +46,9 @@ description: Linear Regression
 
 总结
 
-![](.gitbook/assets/image%20%286%29.png)
+![](.gitbook/assets/image%20%289%29.png)
 
-![](.gitbook/assets/image%20%2810%29.png)
+![](.gitbook/assets/image%20%2814%29.png)
 
 在Coursera的课程中即为Normal Equation
 
@@ -56,5 +56,5 @@ description: Linear Regression
 
  There is **no need** to do feature scaling with the normal equation.
 
-![](.gitbook/assets/image%20%284%29.png)
+![](.gitbook/assets/image%20%285%29.png)
 
